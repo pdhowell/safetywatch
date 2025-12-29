@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A06E226B2F01862600333318 /* SafetyWatch Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A06E22612F01862400333318 /* SafetyWatch Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A06E22942F01B92400333318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06E228C2F01B92400333318 /* Assets.xcassets */; };
+		A06E22962F01B92400333318 /* SafetyWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E228E2F01B92400333318 /* SafetyWatchApp.swift */; };
+		A06E22982F01B92400333318 /* SOSLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22902F01B92400333318 /* SOSLocationService.swift */; };
+		A06E22992F01B92400333318 /* SOSOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22912F01B92400333318 /* SOSOrchestrator.swift */; };
+		A06E229A2F01B92400333318 /* SOSPhoneConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22922F01B92400333318 /* SOSPhoneConnectivity.swift */; };
+		A06E22A42F01B92800333318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E229C2F01B92800333318 /* ContentView.swift */; };
+		A06E22A52F01B92800333318 /* SafetyWatch_Watch_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E229D2F01B92800333318 /* SafetyWatch_Watch_AppApp.swift */; };
+		A06E22A62F01B92800333318 /* SOSConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E229E2F01B92800333318 /* SOSConnectivity.swift */; };
+		A06E22A72F01B92800333318 /* SOSConnectivityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E229F2F01B92800333318 /* SOSConnectivityProtocol.swift */; };
+		A06E22A82F01B92800333318 /* SOSHapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22A02F01B92800333318 /* SOSHapticsService.swift */; };
+		A06E22A92F01B92800333318 /* SOSStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22A12F01B92800333318 /* SOSStyle.swift */; };
+		A06E22AA2F01B92800333318 /* SOSWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22A22F01B92800333318 /* SOSWatchViewModel.swift */; };
+		A06E22AB2F01B92800333318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A06E229B2F01B92800333318 /* Assets.xcassets */; };
+		A06E22AD2F01B93E00333318 /* SOSHapticsServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22AC2F01B93E00333318 /* SOSHapticsServiceProtocol.swift */; };
+		A06E22AF2F01BAA400333318 /* SOSRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22AE2F01BAA400333318 /* SOSRoundButton.swift */; };
+		A06E22B12F01BAC900333318 /* RingCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22B02F01BAC900333318 /* RingCountdownView.swift */; };
+		A06E22B32F01BAFA00333318 /* SendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22B22F01BAFA00333318 /* SendingView.swift */; };
+		A06E22B52F01BB1500333318 /* CancelCapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22B42F01BB1500333318 /* CancelCapsuleButton.swift */; };
+		A06E22B72F01BB4300333318 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22B62F01BB4300333318 /* StatusView.swift */; };
+		A06E22B92F01BC9100333318 /* SOSColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22B82F01BC9100333318 /* SOSColors.swift */; };
+		A06E22BB2F01C03700333318 /* SOSPhoneConnectivityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22BA2F01C03700333318 /* SOSPhoneConnectivityProtocol.swift */; };
+		A06E22BD2F01C06000333318 /* SOSLocationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22BC2F01C06000333318 /* SOSLocationServiceProtocol.swift */; };
+		A06E22DA2F01DD8000333318 /* SOSMapColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22D92F01DD8000333318 /* SOSMapColors.swift */; };
+		A06E22DC2F01DDA400333318 /* SOSMapGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22DB2F01DDA400333318 /* SOSMapGradients.swift */; };
+		A06E230B2F01EF1A00333318 /* SOSMapBottomPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E22FF2F01EF1A00333318 /* SOSMapBottomPanel.swift */; };
+		A06E230C2F01EF1A00333318 /* SOSMapRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23002F01EF1A00333318 /* SOSMapRoute.swift */; };
+		A06E230D2F01EF1A00333318 /* SOSPulsingPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23012F01EF1A00333318 /* SOSPulsingPin.swift */; };
+		A06E230E2F01EF1A00333318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23032F01EF1A00333318 /* ContentView.swift */; };
+		A06E230F2F01EF1A00333318 /* SOSMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23042F01EF1A00333318 /* SOSMapView.swift */; };
+		A06E23102F01EF1A00333318 /* WaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23052F01EF1A00333318 /* WaitingView.swift */; };
+		A06E23112F01EF1A00333318 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23072F01EF1A00333318 /* ShareSheet.swift */; };
+		A06E23122F01EF1A00333318 /* SOSReceiverHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23082F01EF1A00333318 /* SOSReceiverHeaderView.swift */; };
+		A06E231E2F01F31300333318 /* Date+RelativeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E231D2F01F31300333318 /* Date+RelativeDescription.swift */; };
+		A06E23202F01F82600333318 /* SOSRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E231F2F01F82600333318 /* SOSRecord.swift */; };
+		A06E23222F01F84C00333318 /* SOSHistoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23212F01F84C00333318 /* SOSHistoryStorage.swift */; };
+		A06E23242F01F8B100333318 /* SOSHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23232F01F8B100333318 /* SOSHistoryView.swift */; };
+		A06E23262F01FF3400333318 /* LastSOSCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06E23252F01FF3400333318 /* LastSOSCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A06E22692F01862600333318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A06E22472F0185DC00333318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A06E22602F01862400333318;
+			remoteInfo = "SafetyWatch Watch App Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A06E226F2F01862600333318 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A06E226B2F01862600333318 /* SafetyWatch Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A06E224F2F0185DC00333318 /* SafetyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06E22612F01862400333318 /* SafetyWatch Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SafetyWatch Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06E228C2F01B92400333318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A06E228E2F01B92400333318 /* SafetyWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyWatchApp.swift; sourceTree = "<group>"; };
+		A06E22902F01B92400333318 /* SOSLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSLocationService.swift; sourceTree = "<group>"; };
+		A06E22912F01B92400333318 /* SOSOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSOrchestrator.swift; sourceTree = "<group>"; };
+		A06E22922F01B92400333318 /* SOSPhoneConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSPhoneConnectivity.swift; sourceTree = "<group>"; };
+		A06E229B2F01B92800333318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A06E229C2F01B92800333318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A06E229D2F01B92800333318 /* SafetyWatch_Watch_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyWatch_Watch_AppApp.swift; sourceTree = "<group>"; };
+		A06E229E2F01B92800333318 /* SOSConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSConnectivity.swift; sourceTree = "<group>"; };
+		A06E229F2F01B92800333318 /* SOSConnectivityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSConnectivityProtocol.swift; sourceTree = "<group>"; };
+		A06E22A02F01B92800333318 /* SOSHapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSHapticsService.swift; sourceTree = "<group>"; };
+		A06E22A12F01B92800333318 /* SOSStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSStyle.swift; sourceTree = "<group>"; };
+		A06E22A22F01B92800333318 /* SOSWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSWatchViewModel.swift; sourceTree = "<group>"; };
+		A06E22AC2F01B93E00333318 /* SOSHapticsServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSHapticsServiceProtocol.swift; sourceTree = "<group>"; };
+		A06E22AE2F01BAA400333318 /* SOSRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSRoundButton.swift; sourceTree = "<group>"; };
+		A06E22B02F01BAC900333318 /* RingCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingCountdownView.swift; sourceTree = "<group>"; };
+		A06E22B22F01BAFA00333318 /* SendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingView.swift; sourceTree = "<group>"; };
+		A06E22B42F01BB1500333318 /* CancelCapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelCapsuleButton.swift; sourceTree = "<group>"; };
+		A06E22B62F01BB4300333318 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		A06E22B82F01BC9100333318 /* SOSColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSColors.swift; sourceTree = "<group>"; };
+		A06E22BA2F01C03700333318 /* SOSPhoneConnectivityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSPhoneConnectivityProtocol.swift; sourceTree = "<group>"; };
+		A06E22BC2F01C06000333318 /* SOSLocationServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSLocationServiceProtocol.swift; sourceTree = "<group>"; };
+		A06E22D92F01DD8000333318 /* SOSMapColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSMapColors.swift; sourceTree = "<group>"; };
+		A06E22DB2F01DDA400333318 /* SOSMapGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSMapGradients.swift; sourceTree = "<group>"; };
+		A06E22FF2F01EF1A00333318 /* SOSMapBottomPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSMapBottomPanel.swift; sourceTree = "<group>"; };
+		A06E23002F01EF1A00333318 /* SOSMapRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSMapRoute.swift; sourceTree = "<group>"; };
+		A06E23012F01EF1A00333318 /* SOSPulsingPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSPulsingPin.swift; sourceTree = "<group>"; };
+		A06E23032F01EF1A00333318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A06E23042F01EF1A00333318 /* SOSMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSMapView.swift; sourceTree = "<group>"; };
+		A06E23052F01EF1A00333318 /* WaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingView.swift; sourceTree = "<group>"; };
+		A06E23072F01EF1A00333318 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		A06E23082F01EF1A00333318 /* SOSReceiverHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSReceiverHeaderView.swift; sourceTree = "<group>"; };
+		A06E231D2F01F31300333318 /* Date+RelativeDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+RelativeDescription.swift"; sourceTree = "<group>"; };
+		A06E231F2F01F82600333318 /* SOSRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSRecord.swift; sourceTree = "<group>"; };
+		A06E23212F01F84C00333318 /* SOSHistoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSHistoryStorage.swift; sourceTree = "<group>"; };
+		A06E23232F01F8B100333318 /* SOSHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSHistoryView.swift; sourceTree = "<group>"; };
+		A06E23252F01FF3400333318 /* LastSOSCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSOSCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A06E224C2F0185DC00333318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A06E225E2F01862400333318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A06E22462F0185DC00333318 = {
+			isa = PBXGroup;
+			children = (
+				A06E22932F01B92400333318 /* SafetyWatch */,
+				A06E22A32F01B92800333318 /* SafetyWatch Watch App */,
+				A06E22502F0185DC00333318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A06E22502F0185DC00333318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A06E224F2F0185DC00333318 /* SafetyWatch.app */,
+				A06E22612F01862400333318 /* SafetyWatch Watch App Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A06E22932F01B92400333318 /* SafetyWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22BE2F01C36F00333318 /* App */,
+				A06E22BF2F01C38A00333318 /* Orchestrator */,
+				A06E23182F01F2CA00333318 /* Data */,
+				A06E23142F01F28700333318 /* Domain */,
+				A06E22C02F01C3AE00333318 /* Services */,
+				A06E230A2F01EF1A00333318 /* Presentation */,
+				A06E22D82F01DD4A00333318 /* Style */,
+				A06E231C2F01F2FC00333318 /* Utils */,
+				A06E22C62F01C48900333318 /* Resources */,
+			);
+			path = SafetyWatch;
+			sourceTree = "<group>";
+		};
+		A06E22A32F01B92800333318 /* SafetyWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22C82F01C4BA00333318 /* App */,
+				A06E22CA2F01C54600333318 /* ViewModel */,
+				A06E22CC2F01C5C000333318 /* Services */,
+				A06E23132F01EF3200333318 /* Presentation */,
+				A06E22CF2F01C63400333318 /* Style */,
+				A06E22C72F01C4A700333318 /* Resources */,
+			);
+			path = "SafetyWatch Watch App";
+			sourceTree = "<group>";
+		};
+		A06E22BE2F01C36F00333318 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A06E228E2F01B92400333318 /* SafetyWatchApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A06E22BF2F01C38A00333318 /* Orchestrator */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22912F01B92400333318 /* SOSOrchestrator.swift */,
+			);
+			path = Orchestrator;
+			sourceTree = "<group>";
+		};
+		A06E22C02F01C3AE00333318 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22C12F01C3C400333318 /* Location */,
+				A06E22C22F01C3DD00333318 /* Connectivity */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A06E22C12F01C3C400333318 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22902F01B92400333318 /* SOSLocationService.swift */,
+				A06E22BC2F01C06000333318 /* SOSLocationServiceProtocol.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		A06E22C22F01C3DD00333318 /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22922F01B92400333318 /* SOSPhoneConnectivity.swift */,
+				A06E22BA2F01C03700333318 /* SOSPhoneConnectivityProtocol.swift */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		A06E22C62F01C48900333318 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A06E228C2F01B92400333318 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A06E22C72F01C4A700333318 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A06E229B2F01B92800333318 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A06E22C82F01C4BA00333318 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A06E229D2F01B92800333318 /* SafetyWatch_Watch_AppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A06E22C92F01C4CF00333318 /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				A06E229E2F01B92800333318 /* SOSConnectivity.swift */,
+				A06E229F2F01B92800333318 /* SOSConnectivityProtocol.swift */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		A06E22CA2F01C54600333318 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22A22F01B92800333318 /* SOSWatchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A06E22CB2F01C58E00333318 /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22A02F01B92800333318 /* SOSHapticsService.swift */,
+				A06E22AC2F01B93E00333318 /* SOSHapticsServiceProtocol.swift */,
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
+		A06E22CC2F01C5C000333318 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22C92F01C4CF00333318 /* Connectivity */,
+				A06E22CB2F01C58E00333318 /* Haptics */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A06E22CD2F01C5DF00333318 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22CE2F01C61600333318 /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A06E22CE2F01C61600333318 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22AE2F01BAA400333318 /* SOSRoundButton.swift */,
+				A06E22B02F01BAC900333318 /* RingCountdownView.swift */,
+				A06E22B22F01BAFA00333318 /* SendingView.swift */,
+				A06E22B42F01BB1500333318 /* CancelCapsuleButton.swift */,
+				A06E22B62F01BB4300333318 /* StatusView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A06E22CF2F01C63400333318 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22A12F01B92800333318 /* SOSStyle.swift */,
+				A06E22B82F01BC9100333318 /* SOSColors.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		A06E22D32F01DA7700333318 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A06E229C2F01B92800333318 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A06E22D82F01DD4A00333318 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22D92F01DD8000333318 /* SOSMapColors.swift */,
+				A06E22DB2F01DDA400333318 /* SOSMapGradients.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		A06E23022F01EF1A00333318 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22FF2F01EF1A00333318 /* SOSMapBottomPanel.swift */,
+				A06E23002F01EF1A00333318 /* SOSMapRoute.swift */,
+				A06E23012F01EF1A00333318 /* SOSPulsingPin.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		A06E23062F01EF1A00333318 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A06E23032F01EF1A00333318 /* ContentView.swift */,
+				A06E23042F01EF1A00333318 /* SOSMapView.swift */,
+				A06E23052F01EF1A00333318 /* WaitingView.swift */,
+				A06E23232F01F8B100333318 /* SOSHistoryView.swift */,
+				A06E23252F01FF3400333318 /* LastSOSCardView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A06E23092F01EF1A00333318 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A06E23072F01EF1A00333318 /* ShareSheet.swift */,
+				A06E23082F01EF1A00333318 /* SOSReceiverHeaderView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A06E230A2F01EF1A00333318 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A06E23062F01EF1A00333318 /* Screens */,
+				A06E23092F01EF1A00333318 /* UI */,
+				A06E23022F01EF1A00333318 /* Map */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A06E23132F01EF3200333318 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A06E22D32F01DA7700333318 /* Screens */,
+				A06E22CD2F01C5DF00333318 /* UI */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A06E23142F01F28700333318 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A06E23152F01F29300333318 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A06E23152F01F29300333318 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A06E231F2F01F82600333318 /* SOSRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A06E23182F01F2CA00333318 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A06E23192F01F2DA00333318 /* Persistence */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A06E23192F01F2DA00333318 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A06E23212F01F84C00333318 /* SOSHistoryStorage.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		A06E231C2F01F2FC00333318 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A06E231D2F01F31300333318 /* Date+RelativeDescription.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A06E224E2F0185DC00333318 /* SafetyWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A06E225A2F0185DE00333318 /* Build configuration list for PBXNativeTarget "SafetyWatch" */;
+			buildPhases = (
+				A06E224B2F0185DC00333318 /* Sources */,
+				A06E224C2F0185DC00333318 /* Frameworks */,
+				A06E224D2F0185DC00333318 /* Resources */,
+				A06E226F2F01862600333318 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A06E226A2F01862600333318 /* PBXTargetDependency */,
+			);
+			name = SafetyWatch;
+			packageProductDependencies = (
+			);
+			productName = SafetyWatch;
+			productReference = A06E224F2F0185DC00333318 /* SafetyWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A06E22602F01862400333318 /* SafetyWatch Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A06E226C2F01862600333318 /* Build configuration list for PBXNativeTarget "SafetyWatch Watch App Watch App" */;
+			buildPhases = (
+				A06E225D2F01862400333318 /* Sources */,
+				A06E225E2F01862400333318 /* Frameworks */,
+				A06E225F2F01862400333318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafetyWatch Watch App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "SafetyWatch Watch App Watch App";
+			productReference = A06E22612F01862400333318 /* SafetyWatch Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A06E22472F0185DC00333318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A06E224E2F0185DC00333318 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A06E22602F01862400333318 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = A06E224A2F0185DC00333318 /* Build configuration list for PBXProject "SafetyWatch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A06E22462F0185DC00333318;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A06E22502F0185DC00333318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A06E224E2F0185DC00333318 /* SafetyWatch */,
+				A06E22602F01862400333318 /* SafetyWatch Watch App Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A06E224D2F0185DC00333318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06E22942F01B92400333318 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A06E225F2F01862400333318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06E22AB2F01B92800333318 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A06E224B2F0185DC00333318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06E22BD2F01C06000333318 /* SOSLocationServiceProtocol.swift in Sources */,
+				A06E230B2F01EF1A00333318 /* SOSMapBottomPanel.swift in Sources */,
+				A06E23222F01F84C00333318 /* SOSHistoryStorage.swift in Sources */,
+				A06E230C2F01EF1A00333318 /* SOSMapRoute.swift in Sources */,
+				A06E230D2F01EF1A00333318 /* SOSPulsingPin.swift in Sources */,
+				A06E230E2F01EF1A00333318 /* ContentView.swift in Sources */,
+				A06E231E2F01F31300333318 /* Date+RelativeDescription.swift in Sources */,
+				A06E230F2F01EF1A00333318 /* SOSMapView.swift in Sources */,
+				A06E23102F01EF1A00333318 /* WaitingView.swift in Sources */,
+				A06E23112F01EF1A00333318 /* ShareSheet.swift in Sources */,
+				A06E23122F01EF1A00333318 /* SOSReceiverHeaderView.swift in Sources */,
+				A06E22BB2F01C03700333318 /* SOSPhoneConnectivityProtocol.swift in Sources */,
+				A06E22DC2F01DDA400333318 /* SOSMapGradients.swift in Sources */,
+				A06E22962F01B92400333318 /* SafetyWatchApp.swift in Sources */,
+				A06E22982F01B92400333318 /* SOSLocationService.swift in Sources */,
+				A06E22992F01B92400333318 /* SOSOrchestrator.swift in Sources */,
+				A06E229A2F01B92400333318 /* SOSPhoneConnectivity.swift in Sources */,
+				A06E23262F01FF3400333318 /* LastSOSCardView.swift in Sources */,
+				A06E22DA2F01DD8000333318 /* SOSMapColors.swift in Sources */,
+				A06E23202F01F82600333318 /* SOSRecord.swift in Sources */,
+				A06E23242F01F8B100333318 /* SOSHistoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A06E225D2F01862400333318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06E22A42F01B92800333318 /* ContentView.swift in Sources */,
+				A06E22B72F01BB4300333318 /* StatusView.swift in Sources */,
+				A06E22A52F01B92800333318 /* SafetyWatch_Watch_AppApp.swift in Sources */,
+				A06E22B12F01BAC900333318 /* RingCountdownView.swift in Sources */,
+				A06E22B52F01BB1500333318 /* CancelCapsuleButton.swift in Sources */,
+				A06E22A62F01B92800333318 /* SOSConnectivity.swift in Sources */,
+				A06E22AF2F01BAA400333318 /* SOSRoundButton.swift in Sources */,
+				A06E22A72F01B92800333318 /* SOSConnectivityProtocol.swift in Sources */,
+				A06E22B32F01BAFA00333318 /* SendingView.swift in Sources */,
+				A06E22B92F01BC9100333318 /* SOSColors.swift in Sources */,
+				A06E22A82F01B92800333318 /* SOSHapticsService.swift in Sources */,
+				A06E22A92F01B92800333318 /* SOSStyle.swift in Sources */,
+				A06E22AD2F01B93E00333318 /* SOSHapticsServiceProtocol.swift in Sources */,
+				A06E22AA2F01B92800333318 /* SOSWatchViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A06E226A2F01862600333318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A06E22602F01862400333318 /* SafetyWatch Watch App Watch App */;
+			targetProxy = A06E22692F01862600333318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A06E22582F0185DE00333318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A06E22592F0185DE00333318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A06E225B2F0185DE00333318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Нужна геолокация для формирования SOS-сообщения";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vemora.tech.SafetyWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A06E225C2F0185DE00333318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Нужна геолокация для формирования SOS-сообщения";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vemora.tech.SafetyWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A06E226D2F01862600333318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SafetyWatch Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = vemora.tech.SafetyWatch;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vemora.tech.SafetyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		A06E226E2F01862600333318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZ329TNU43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SafetyWatch Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = vemora.tech.SafetyWatch;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vemora.tech.SafetyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A06E224A2F0185DC00333318 /* Build configuration list for PBXProject "SafetyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06E22582F0185DE00333318 /* Debug */,
+				A06E22592F0185DE00333318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A06E225A2F0185DE00333318 /* Build configuration list for PBXNativeTarget "SafetyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06E225B2F0185DE00333318 /* Debug */,
+				A06E225C2F0185DE00333318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A06E226C2F01862600333318 /* Build configuration list for PBXNativeTarget "SafetyWatch Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06E226D2F01862600333318 /* Debug */,
+				A06E226E2F01862600333318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A06E22472F0185DC00333318 /* Project object */;
+}
